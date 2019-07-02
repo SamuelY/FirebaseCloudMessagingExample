@@ -11,7 +11,7 @@ use Google_Service_FirebaseCloudMessaging;
 class TestController extends Controller
 {
     function googleApi() {
-        $file_path = Storage::disk('local')->getDriver()->getAdapter()->getPathPrefix().'credentials.json';
+        $file_path = Storage::disk('local')->getDriver()->getAdapter()->getPathPrefix().'---name of your credentials json file---';
         putenv('GOOGLE_APPLICATION_CREDENTIALS='.$file_path);
 
         $client = new Google_Client();
