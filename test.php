@@ -1,12 +1,11 @@
 <?php
 
+//This is laravel project and demo how to using google firebase cloud messaging
+//To install the library, please reference https://github.com/googleapis/google-api-php-client 
+
 namespace App\Http\Controllers;
-
-
 use Google_Client;
 use Google_Service_FirebaseCloudMessaging;
-
-
 
 class TestController extends Controller
 {
