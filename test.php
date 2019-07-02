@@ -1,7 +1,13 @@
 <?php
 
-//This is laravel project and demo how to using google firebase cloud messaging
-//To install the library, please reference https://github.com/googleapis/google-api-php-client 
+//====This is laravel project and demo how to using google firebase cloud messaging====
+ 
+//1. Create new firebase project in firebase console 
+//2. Create a service account in project settings and click generate new private key button
+//3. Start download a json file and put it under storage/app folder
+//4. Install the library, please reference https://github.com/googleapis/google-api-php-client
+//5. Copy the example code to your laravel project
+//6. enjoy it
 
 namespace App\Http\Controllers;
 use Google_Client;
