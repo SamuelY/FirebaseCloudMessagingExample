@@ -21,11 +21,11 @@ class TestController extends Controller
         $httpClient = $client->authorize();
 
         // Your Firebase project ID
-        $project = "telehealth-esp";
+        $project = "---project id here---";
         // Creates a notification for subscribers to the debug topic
         $message = [
             "message" => [
-                "token" => "token here",
+                "token" => "---token here---",
                 "notification" => [
                     "title" => "FCM Message",
                     "body" => "This is an FCM notification message!",
